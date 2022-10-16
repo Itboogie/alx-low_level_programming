@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - The variable n will store a different value 
+ * main - The variable n will store a different value
  * every time you will run this program.
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 
@@ -13,24 +13,24 @@ int main(void)
 
 
 	int n;
-	
 
 	srand(time(0));
-	n = rand() - RAND_MAX /2;
+	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 
-	if ( n > 0)
+	if (n < 0)
 		{
-			printf(" %s is %d \n","postive", n);
+		printf("%s is %d\n", "postive", n);
 		}
-	else if  (n > 0)
+	else if   (n > 0)
 	{
-		printf("%s is %d \n", "zero", n);
+		printf("%s is %d\n", "zero", n);
 	}
 	else
 	{
-		printf("%s is %d \n", "negative", n);
+		printf("%s is %d\n", "negative", n);
 	}
+	return (0);
 }
 
 
