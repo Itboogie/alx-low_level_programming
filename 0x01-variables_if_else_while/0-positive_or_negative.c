@@ -24,11 +24,11 @@ int main(void)
 		}
 	else if   (n > 0)
 	{
-		printf("%s is %d\n", "negative", n);
+		printf("%s is %d\n", "zero", n);
 	}
 	else
 	{
-		printf("%s is %d\n", "zero", n);
+		printf("%s is %d\n", "negative", n);
 	}
 	return (0);
 }
