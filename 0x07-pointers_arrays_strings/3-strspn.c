@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
   * _strspn - search a string for a set of bytes
@@ -29,4 +29,3 @@ unsigned int _strspn(char *s, char *accept)
 	}
 
 	return (t);
-}
