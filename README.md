@@ -1,1 +1,1 @@
-This is the beginning of C programming for me
+this is my readme.md
