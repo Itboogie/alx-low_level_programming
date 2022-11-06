@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
-* main -> This is a function that print its file name
-* @argc: argc is a parameter
-* @argv: an array of a command line listed
-* Return: 0 for success
-*/
+ * main - this is a function to print its name
+ * @argc: argc param
+ * @argv: an array of a command listed
+ * Return: 0 for success
+ */
 int main(int argc __attribute__((unused)), char *argv[])
 {
 	printf("%s\n", *argv);
