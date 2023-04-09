@@ -33,7 +33,3 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	close(file);
 	return (n_read);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
